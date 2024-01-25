@@ -6,13 +6,12 @@ metrics:
     label: Total Revenue
     model: ref('fct_order_items')
     description: Total income from all orders
-
+    type: number
+    type_params: decimal  # Specify the data type
     calculation_method: sum
     expression: gross_item_sales_amount
-
     timestamp: order_date
     time_grains: [day, week, month, quarter, year]
-
     dimensions:
       - return_flag
       - order_item_status_code
@@ -24,6 +23,8 @@ metrics:
     label: Total Customers
     model: ref('fct_order_items')
     description: Total customers with an order
+    type: number
+    type_params: integer  # Assuming customer_key is an integer
     calculation_method: count_distinct
     expression: customer_key
 
@@ -32,20 +33,24 @@ metrics:
     label: Total Expenses
     model: ref('fct_order_items')
     description: Total expenses from all orders
+    type: number
+    type_params: decimal  # Specify the data type
     expression: supplier_cost
 
   - <<: *finance-metric
     name: total_profit
     label: Total Profit
     description: Total profit from all orders
+    type: number
+    type_params: decimal  # Derived metrics usually involve calculations
     calculation_method: derived
-    model: # Derived metrics cannot have a 'model' property
     expression: "{{ metric('total_revenue') }} - {{ metric('total_expenses') }}"
 
   - <<: *finance-metric
     name: average_revenue_per_customer
     label: Average Revenue Per Customer
     description: The average revenue received per customer
+    type: number
+    type_params: decimal  # Result of division, hence decimal
     calculation_method: derived
-    model: # Derived metrics cannot have a 'model' property
     expression: "{{ metric('total_revenue') }} / {{ metric('total_customers') }}"
