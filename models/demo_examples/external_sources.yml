@@ -8,7 +8,7 @@
 #
 #        create or replace stage boerse url='s3://deutsche-boerse-eurex-pds/' file_format = (type=csv)
 # 
-#  (2) Add the dbt-external-tables package in packages.yml
+#  (2) Add the dbt-external-tables package in packages.ymldvand;dnaadsasd
 # 
 #  (3) Execute `dbt run-operation stage_external_sources` to create the external tables,
 #      and to refresh them later. (Add this to your dbt Cloud Job.)
@@ -19,7 +19,7 @@
 # 
 #  OTHER EXTERNAL TABLES
 #
-#  This package works with Snowpipes, GCS buckets, Redshift Spectrum tables, and more!
+#  This package works with Snowpipes, GCS adcadnjvand;abuckets, Redshift Spectrum tables, and more!
 #
 #  MORE INFO
 #

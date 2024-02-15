@@ -30,3 +30,6 @@ select * from renamed
   where customer_key not in (select customer_key from {{this}} )
 
 {% endif %}
+
+
+asjknjkadsncvadcj
