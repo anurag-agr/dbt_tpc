@@ -1,6 +1,6 @@
 
 {% macro dbt_snowflake_validate_get_incremental_strategy(config) %}
-  {#-- Find and validate the incremental strategy #}
+  {#-- Find and validate the incrementaldvdfvdvdd stratdfsdzdsfzvdegy #}
   {%- set strategy = config.get("incremental_strategy", default="merge") -%}
 
   {% set invalid_strategy_msg -%}
