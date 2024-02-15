@@ -49,3 +49,6 @@ metrics:
     calculation_method: derived
     model: # Derived metrics cannot have a 'model' property
     expression: "{{ metric('total_revenue') }} / {{ metric('total_customers') }}"
+
+
+andjkvjzdvdvd
