@@ -32,4 +32,5 @@ select * from renamed
 {% endif %}
 
 
-asjknjkadsncvadcj
+-- asjknjkadsncvadcj
+          -- # Comment 3 from dev A 
