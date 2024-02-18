@@ -25,8 +25,5 @@ from
 
 order by order_year
 
-
-
-        --   # Comment 6 from dev A 
-        Comment from 7 from dev 
+                    # Comment 6 from dev B
 

@@ -29,9 +29,8 @@ select * from renamed
   -- this filter will only be applied on an incremental run
   where customer_key not in (select customer_key from {{this}} )
 
+-- adfadsfs
 {% endif %}
 
 
--- asjknjkadsncvadcj
-          -- # Comment 3 from dev A 
-        --   # commentt 3 from dev C
+                    # Comment 3 from dev B
