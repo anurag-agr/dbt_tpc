@@ -5,5 +5,3 @@ from {{ metrics.calculate(
     grain='week',
     dimensions=['ship_mode']
 ) }}
-
--- adnkf'dzd
