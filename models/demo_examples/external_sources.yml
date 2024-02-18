@@ -5,10 +5,10 @@
 #  GUIDE
 #
 #  (1) Create a Snowflake external stage, e.g.,:
-#
+#sddsvzdssz
 #        create or replace stage boerse url='s3://deutsche-boerse-eurex-pds/' file_format = (type=csv)
 # 
-#  (2) Add the dbt-external-tables package in packages.ymldvand;dnaadsasd
+#  (2) Add the dbt-external-tables package in packages.yml
 # 
 #  (3) Execute `dbt run-operation stage_external_sources` to create the external tables,
 #      and to refresh them later. (Add this to your dbt Cloud Job.)
@@ -19,7 +19,7 @@
 # 
 #  OTHER EXTERNAL TABLES
 #
-#  This package works with Snowpipes, GCS adcadnjvand;abuckets, Redshift Spectrum tables, and more!
+#  This package works with Snowpipes, GCS buckets, Redshift Spectrum tables, and more!
 #
 #  MORE INFO
 #
@@ -116,6 +116,5 @@ sources:
             data_type: INT
             description: "Number of distinct trades during the period"
 
-
-          # Comment 2 from dev A 
+                    # Comment 2 from dev B and A with Prince and Gaurav
 

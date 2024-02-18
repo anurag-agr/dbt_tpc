@@ -3,7 +3,7 @@
 {#
 
 Usage:
--- dfdvdfvz
+
 This would be used as a post-hook in the config block at the top of a model
 
 Example:
