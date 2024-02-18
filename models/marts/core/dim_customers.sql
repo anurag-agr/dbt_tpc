@@ -44,3 +44,6 @@ from
     final
 order by
     customer_key
+
+
+-- Comment 10 from comment C
