@@ -209,3 +209,7 @@ models:
       joins:
         - join: dim_customers
           sql_on: ${fct_orders.customer_key} = ${dim_customers.customer_key}
+
+
+
+          # comment 9 from dev C
