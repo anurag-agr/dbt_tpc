@@ -100,3 +100,4 @@ models:
         description: '{{ doc("available_quantity") }}'
       - name: cost
         description: '{{ doc("cost") }}'
+        # comment from Dev D
