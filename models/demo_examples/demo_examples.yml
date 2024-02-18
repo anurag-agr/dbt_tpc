@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: materialization_incremental
+  - name: materialization_incremental_testing_DevA
     description: demo to show incremental model
     columns:
       - name: customer_key

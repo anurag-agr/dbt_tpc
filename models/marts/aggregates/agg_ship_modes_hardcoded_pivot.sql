@@ -3,6 +3,7 @@
 with merged as (
     select
         date_part('year', order_date) as order_year,
+        this is also me testing content
         ship_mode,
         gross_item_sales_amount
     from {{ ref('fct_order_items') }}
