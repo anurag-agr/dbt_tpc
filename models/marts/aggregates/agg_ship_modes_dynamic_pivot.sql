@@ -22,7 +22,3 @@ from {{ ref('fct_order_items') }}
 group by 1
 
 
-
-        --   # Comment 5 from dev A 
-        -- comment 5 from dev C
-

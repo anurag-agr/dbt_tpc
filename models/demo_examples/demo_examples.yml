@@ -26,10 +26,3 @@ sources:
         external:
           location: '@eqrx_test'
           file_format: "( type = csv )"
-
-          # dnc;jkdsn;kvd
-
-          # Comment 1 from dev A asdfdsfsda
-          # Comment from Anurag 
-
-          #comment 3 from dev C
