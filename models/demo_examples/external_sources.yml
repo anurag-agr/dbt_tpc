@@ -116,8 +116,3 @@ sources:
             data_type: INT
             description: "Number of distinct trades during the period"
 
-
-          # Comment 2 from dev A 
-          #comment 3 from dev C
-          #c
-
